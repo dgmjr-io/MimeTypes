@@ -764,7 +764,8 @@ namespace MimeTypes
         /// <exception cref="ArgumentNullException" />
         public static bool TryGetMimeType(string str, out string mimeType)
         {
-            if (str == null) {
+            if (str == null)
+            {
                 throw new ArgumentNullException(nameof(str));
             }
 
